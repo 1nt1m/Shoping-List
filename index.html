@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="buttons" id="buttons">
+			<button class="button">Shopping List</button>
+			<button class="button">Done</button>
+			<button class="button">Delete</button>
+		</div>
+		<div class="main">
+			<div class="form">
+				<br>
+				<h1 id="titlename">Shopping List</h1>
+				<hr>
+				<input type="text" class="my_input" id="iname">
+				<input type="number" class="my_input w1" id="iquant">
+				<input type="number" class="my_input w1" id="iprice">
+				<button class="action_b green" id="add">Add</button>
+				<button class="action_b yellow hidden" id="edit">Edit</button>
+
+
+			</div>
+			<div class="table_div">
+				<table class="table">
+					<tr>
+						<th>#</th>
+						<th>Item</th>
+						<th>Quantity</th>
+						<th>Price</th>
+						<th>Action</th>
+					</tr>
+					<tbody id="tbody"></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>

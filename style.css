@@ -1,0 +1,99 @@
+.container{
+	width: 700px;
+	min-height: 300px;
+	margin: 0 auto;
+}
+.buttons{
+	margin-right: 20px;
+	width: 180px;
+	float: left;
+}
+.main{
+	width: 500px;
+	float: left;
+}
+.button{
+	color: #007bff;
+	font-size: 16px;
+	width: 100%;
+	text-align: left;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+.button:focus{
+	background: #007bff;
+	color: white;
+	border-radius: 4px;
+}
+.form{
+	height: 140px;
+	background: #e9ecef;
+	border-radius: 4px;
+	padding: 10px;
+}
+h1{
+	margin: 0px;
+}
+.my_input{
+	margin: 5px;
+	padding: 5px;
+	border:1px solid #d4dadf;
+	border-radius: 2px;
+	outline: none;
+}
+.w1{
+	width: 15%;
+}
+.action_b{
+	padding: 5px 10px;
+	font-size: 15px;
+	cursor: pointer;
+	border: none;
+	color: white;
+	border-radius: 2px;
+	font-weight: 700;
+	margin:0px 3px;
+}
+.green{
+	background: #28a745;
+}
+.yellow{
+	background: #ffc107;
+}
+.red{
+	background: #dc3545;
+}
+.table_div{
+	margin-top: 20px;
+	min-height: 300px;
+}
+.table{
+	width: 100%;
+	border-spacing: 0px;
+}
+th{
+	background: black;
+	color: white;
+}
+th, td{
+	padding: 5px;
+	text-align: center;
+}
+tr:hover{
+	background: #ececec;
+}
+.total{
+	text-align: right;
+}
+.foot{
+	background: #dadada;
+}
+.foot:hover{
+	background: #dadada;
+}
+.hidden{
+	display: none;
+}
